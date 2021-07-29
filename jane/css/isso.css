@@ -1,0 +1,166 @@
+.isso-postbox .textarea-wrapper {
+  margin-bottom: -.4rem; }
+
+.isso-postbox .textarea-wrapper .textarea {
+  min-height: 4rem; }
+
+.isso-postbox .textarea-wrapper .textarea,
+.isso-postbox .auth-section .input-wrapper input {
+  background: #fafafa;
+  border: .1rem solid #eee;
+  border-radius: .2rem;
+  padding: .6rem .8rem; }
+
+.isso-postbox .textarea-wrapper .textarea:focus,
+.isso-postbox .auth-section .input-wrapper input:focus {
+  border-color: #999;
+  outline: none; }
+
+.isso-postbox .auth-section {
+  display: flex;
+  display: -ms-flexbox; }
+
+.isso-postbox .auth-section .input-wrapper {
+  flex: 1 1 25%;
+  padding-right: 2.5rem;
+  width: 25%; }
+
+.isso-postbox .auth-section .post-action {
+  -ms-flex: 1 1 25%;
+  flex: 1 1 25%;
+  width: 25%; }
+
+.isso-postbox .auth-section .post-action input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #338ffd;
+  border: .1rem solid #338ffd;
+  border-radius: .2rem;
+  color: #fff;
+  padding: .6rem; }
+
+.isso-postbox .auth-section .post-action input:focus {
+  background: #177ffb;
+  outline: none; }
+
+.isso-postbox .auth-section input {
+  width: 100%; }
+
+.isso-comment {
+  display: flex;
+  display: -ms-flexbox;
+  margin-top: 0.2rem; }
+
+.content-post-comments {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  }
+
+.content-post-comments .p {
+  line-height: 1.6rem;
+  margin: 0 0 1rem; }
+
+.isso-comment .avatar {
+  margin-right: 1rem;
+  height: 2rem;
+  width: 2rem; }
+
+.isso-comment .avatar svg {
+  border-radius: 50%;
+  height: auto;
+  width: 100%; }
+
+.isso-comment .isso-comment-header .author {
+  font-weight: bolder; }
+
+.isso-comment .isso-comment-header .spacer {
+  color: #ccc;
+  margin-left: .3rem;
+  margin-right: .3rem; }
+
+.isso-comment .isso-comment-header .permalink {
+  color: #ccc; }
+
+.isso-comment .isso-comment-header .note {
+  margin-left: .5rem; }
+
+.isso-comment .upvote,
+.isso-comment .downvote {
+  display: inline-block; }
+
+.isso-comment .upvote svg,
+.isso-comment .downvote svg {
+  position: relative;
+  top: .4rem; }
+
+.isso-comment .reply:not(:first-child),
+.isso-comment .edit:not(:first-child),
+.isso-comment .cancel:not(:first-child),
+.isso-comment .delete:not(:first-child) {
+  font-size: .8rem;
+  margin-left: .5rem; }
+
+.isso-comment.isso-no-votes .votes {
+  display: none; }
+
+.text p {
+  line-height: 1.6rem;
+  margin: -10px 10px -10px; }
+
+.textarea {
+  font-size: 15px;
+  font-weight: 400; }
+
+@media screen and (max-width: 960px) {
+  .sidebar {
+    width: 100%;
+    position: absolute;
+    border-right: none;
+    z-index: 1; }
+    .sidebar .logo-title {
+      padding-top: 120px; }
+      .sidebar .logo-title .title img {
+        width: 100px; }
+      .sidebar .logo-title .title h3 {
+        font-size: 20px; }
+
+  .page-top {
+    width: 100%; }
+
+  .post-title h3 {
+    line-height: 1.6; }
+
+  .content {
+    width: 100%;
+    z-index: 2;
+	}
+
+  .share {
+    display: grid; }
+
+  .auth-section {
+    flex-direction: column; }
+
+  .isso-postbox .auth-section .input-wrapper {
+    box-sizing: inherit;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 1rem 0rem -.5rem 0rem;
+    padding-right: 0; }
+
+  .isso-postbox .auth-section .post-action {
+    width: 100%;
+    box-sizing: border-box; }
+
+  *, ::after, ::before {
+    box-sizing: inherit; } 
+}
+
+@media screen and (max-width: 899px) {
+	.content-post-comments {
+    margin: 10px
+  }
+}
